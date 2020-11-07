@@ -1,0 +1,10 @@
+.home__wrapper {
+  @include page;
+   .home__greeting {
+    padding: 16px 16px 28px;
+    font-size: 16px;
+    line-height: 1.33333;
+    font-weight: lighter;
+    color: $black;
+   }
+}

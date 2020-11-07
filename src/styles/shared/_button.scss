@@ -1,0 +1,54 @@
+.button {
+  min-width: 166px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  background: white;
+  border: none;
+  color: $black;
+  padding: 0 20px;
+  margin: 0 auto;
+  border-radius: 16px/16px;
+  font-size: 14px;
+  line-height: 1.42857;
+  font-weight: 700;
+
+  &.gradient {
+    background: $pruple__gradient;
+    color: white;
+  }
+}
+
+.circle__button {
+  height: 2.7rem;
+  width: 2.7rem;
+  background-color: $purple;
+  color: white;
+  border-radius: 100%;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.withIcon {
+    margin-left: 1rem;
+  }
+
+  &.withBlur {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: transparent;
+    backdrop-filter: blur(10px) brightness(.4);
+    z-index: 1;
+  }
+
+  svg {
+    fill: white;
+    width: 15px;
+    height: 15px;
+  }
+}

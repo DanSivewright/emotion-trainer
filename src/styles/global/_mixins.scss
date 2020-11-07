@@ -1,0 +1,7 @@
+@mixin page {
+  width: 100%;
+  max-width: 930px;
+  min-height: calc(100vh - 96px);
+  margin: 0 auto;
+  padding: 0 16px 32px;
+}

@@ -1,0 +1,17 @@
+// GLOBAL
+@import './global/global';
+@import './global/variables';
+@import './global/mixins';
+
+// PAGES
+@import './pages/home';
+@import './pages/replicate';
+@import './pages/quiz';
+
+// LAYOUT
+@import './layout/webCam';
+
+// SHARED
+@import './shared/header';
+@import './shared/card';
+@import './shared/button';
