@@ -3,35 +3,35 @@ Felix, meaning happy in Latin, is a tool built for psychologists to aid them in 
 ![Mockup](images/iphoneX-perspective.jpg)
 
 ## Getting Started
-1. Install [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) and [xamarin forms](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/) 
-2. Clone the repository 
-> git clone https://github.com/DanSivewright/IDV301.git
+1. Visit the live site at [https://tinder-clone-c1db2.web.app/](https://tinder-clone-c1db2.web.app/)
+2. Please note that due to Apples Privacy policy you will not be able to test the site on iPhones. Please ensure you're on a web browser or android mobile device. 
+2. Alternitively you can clone the repository 
+> git clone https://github.com/DanSivewright/emotion-trainer.git
 
 3. Open Project in Visual Studio
 
-4. Once open, tap the menu in the top right and ensure you create two plants before proceeding.
+4. Ensure you have the [Node LTS](https://nodejs.org/en/download/) and run 
+> npm i && npm start
 
 ## Features and Functionality 
 
 Here are the core features and functionality
 
 ### Features & Functionality
-* Creating your own plant multiple times
-* Watering the plant
-* Giving it sunlight 
-* Writing Notes to your plant
+* Live face detection 
+* Emotion detection and tracking. Detectable emotions are 'happy, sad, angry, surprised, neutral, fearful and disgusted. 
+
 #### Additional Features
-* The plants health in negatively impacted if it is given too much water and sunlight, as well as writing too many positive or negative notes. 
+* Emotion quiz, allowing the user to answer question where they are tasked at looking at a picture and determining the emotion.  
 
 ## Built With
-**C#**
-**Microsofts Xamarin Forms**
+**JavaScript**
 
 
 #### Aditional Technologies/ Nuget Packages
-* SkiaSharp - [GitHub](https://github.com/mono/SkiaSharp)
-* CardsView by [Andrei Misiukevich](https://github.com/AndreiMisiukevich/CardView)
-* [SQLite](https://www.nuget.org/packages/System.Data.SQLite) Nuget Package
+* [React](https://reactjs.org/)
+* [Google Firebase](https://firebase.com/)
+* [ace-api.js](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
 
 ## Contributing
 
@@ -44,7 +44,7 @@ Pretty much everyone is smarter than me - I'm sure I could use your help
 5. Open a Pull Request
 
 ## Authors
-* **Daniel Sivewright** - *Front End, Code Behond & Unit Testing* - [DanSivewright](https://github.com/DanSivewright)
+* **Daniel Sivewright** - *Front End, Code Behind & Unit Testing* - [DanSivewright](https://github.com/DanSivewright)
 
 ## License  
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
